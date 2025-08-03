@@ -47,7 +47,7 @@ const Sidebar: React.FC<SidebarProps> = ({ activeTab, setActiveTab }) => {
             <Stethoscope className="w-6 h-6 text-white" />
           </div>
           <div>
-            <h1 className="text-lg font-bold text-gray-800">MediClinic Pro</h1>
+            <h1 className="text-lg font-bold text-gray-800">RKM Medical Centre</h1>
             <p className="text-xs text-gray-500">Healthcare Management</p>
           </div>
         </div>

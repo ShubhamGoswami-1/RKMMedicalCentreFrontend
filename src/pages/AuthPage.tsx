@@ -89,7 +89,7 @@ const AuthPage: React.FC = () => {
           <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-orange-500 to-amber-500 rounded-full mb-4 shadow-lg">
             <Stethoscope className="w-8 h-8 text-white" />
           </div>
-          <h1 className="text-3xl font-bold text-gray-800 mb-2">MediClinic Pro</h1>
+          <h1 className="text-3xl font-bold text-gray-800 mb-2">RKM Medical Centre</h1>
           <p className="text-gray-600">Professional Healthcare Management</p>
         </div>
 
@@ -312,7 +312,7 @@ const AuthPage: React.FC = () => {
               type="submit"
               className="w-full bg-gradient-to-r from-orange-500 to-amber-500 text-white py-3 px-4 rounded-lg font-medium hover:from-orange-600 hover:to-amber-600 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 transform hover:scale-[1.02] transition-all duration-200 shadow-lg"
             >
-              {isLogin ? 'Sign In to MediClinic' : 'Create Your Account'}
+              {isLogin ? 'Sign In to RKM MediClinic' : 'Create Your Account'}
             </button>
           </form>
 
@@ -334,7 +334,7 @@ const AuthPage: React.FC = () => {
         {/* Footer */}
         <div className="text-center mt-8">
           <p className="text-sm text-gray-500">
-            © 2025 MediClinic Pro. Professional healthcare management solution.
+            © 2025 RKM Medical Centre. Professional healthcare management solution.
           </p>
         </div>
       </div>
